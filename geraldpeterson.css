@@ -1,0 +1,333 @@
+
+	header 	{
+			background-color:#778899;
+			border-radius: 10px;
+			margin-top: 1%;
+			margin-left: 15%;
+			margin-right: 15%;
+			display: block;
+
+	}
+
+	#header  {
+			border-radius: 10px;
+			text-align: left;
+			padding-left: 2%;
+	}
+
+	#main	{
+			padding-left: 5px;
+	}
+	
+	body { 	
+			background-image:url("grey1a.jpg");
+			background-attachment: fixed;
+			background-color: #000000;
+			width: auto;
+			height: auto;
+			color : #274856;
+			font-family: 'Arima Madurai', cursive;
+			margin: 0px
+	}
+	
+	#menu	{
+			background-color: #ffd480;
+			padding-left: 0;
+			padding-top: 1%;
+			padding-bottom: 1%;
+			padding-right: .5%;
+			height: 4%;
+			min-width: 360px;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-top: 0%;
+			margin-bottom: 2%;
+			border: solid;
+			border-radius: 10px;
+	}
+	
+	nav ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0 0 .7% 1%;
+
+	}
+
+	nav li	{
+			background-color: #778899;
+			color: #ffffff;
+			text-align: center;
+			margin-top: 1%;
+			padding-top: 5%;
+			margin-left: auto;
+			display: inline;
+			padding: .7%;
+			box-shadow:5px 5px 2px #000000;
+			border-radius: 10px;
+			list-style-type: none;
+				
+	}
+	
+	a:link{	color:#ffffff;
+			text-decoration:none;
+	}
+	
+	a:visited{
+			color:#111544;
+			text-decoration:none;
+
+	}
+	
+	a:hover{
+			text-decoration:underline;
+
+	}
+	
+	a:active{
+			text-decoration:none;
+			background-color: green;
+
+	}
+	
+	#page1{ width:auto; 
+			background-color: #778899;
+			color: #18261b;
+			padding: 1%;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-bottom: 1%;
+			border-radius: 10px;
+	}
+
+	#greeting h1{
+			font:2.0em;
+			text-align: center;
+			clear: both;
+	}
+	
+	#greeting h3{
+			clear: both;
+	}
+	
+	#propic {
+			float: right;
+			max-width: 100%;
+			height: auto;
+			margin-right: .3%;
+			box-shadow: 8px 8px 2px #000000;
+			border-radius: 5px;
+			position: relative;
+	}
+
+	#descriptionHome	{
+			height: auto;
+			width: 100%;
+			padding-right: 6%;
+			padding-left: 1%;
+	}
+	
+	#descriptionHome h3{
+			padding-right: 25%;
+	}
+
+	#page2{ width:auto; 
+			background-color: #778899;
+			color: #18261b;
+			padding: 1%;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-bottom: 1%;
+			border-radius: 10px;
+	
+	}
+	
+	#technicalExperience h1{
+			text-align: center;
+			clear: both;
+	}
+	#technicalExperience h3{
+			clear:both;
+	}
+	
+	#page2 ul {
+			color:#111544;
+			display: inline-block;
+			text-align: left;
+			max-width:33%;
+	}
+	
+	#htmlExample{
+
+			float: left;
+			max-width: 33%;
+			height: auto;
+			display: inline;
+			padding-left:3%;
+		
+	}
+	
+	#cssExample{
+
+			float: right;
+			max-width: 33%;
+			height: auto;
+			display: inline;
+			padding-right:3%;
+	}
+	
+	#page3{ width:auto; 
+			background-color: #778899;
+			color: #18261b;
+			padding: 1%;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-bottom: 1%;
+			border-radius: 10px;
+	}
+	
+	#helper {
+			text-align:center;
+	}
+	
+	#page4{ width:auto; 
+			background-color: #778899;
+			color: #18261b;
+			padding: 1%;
+			margin-left: 15%;
+			margin-right: 15%;
+			margin-bottom: 1%;
+			border-radius: 10px;
+	}
+	
+	.columnDiv1{
+		
+			-webkit-column-count: 2; /* Chrome, Safari, Opera */
+			-moz-column-count: 2; /* Firefox */
+			column-count: 2;
+			-webkit-column-gap: 1%; /* Chrome, Safari, Opera */
+			-moz-column-gap: 1%; /* Firefox */
+			column-gap: 1%;
+			display: inline-block;
+
+	}
+
+	
+	#downtownDinerPage{
+		    clear:both;
+			float: left;
+			max-width: 48%;
+			display: inline-block;
+			margin-top: 5%;
+
+	}
+	
+	#raceCar{
+			float: left;
+			max-width: 48%;
+			display: inline-block;
+			margin-right: 5%;
+	}
+	
+	#projectExamples{
+			text-align: center;
+	}
+	
+	#page4 hr{
+			clear: both;
+	}
+	
+	#h3Clear{
+		
+		clear:both;
+	}
+	
+	
+
+	#wrapper {width:auto; 
+			background-color: #778899;
+			color: #18261b;
+			padding: 5px;
+			margin-left: 20%;
+			margin-right: 20%;
+			border-radius: 15px;
+	}
+	
+	.top	{
+			color: tan;
+			text-align: center;
+			font-size: .8em;
+			clear: both;
+	}
+
+
+	/*img{
+			box-shadow: 8px 8px 2px #000000;
+			border-radius: 5px;
+			max-width: 100%;
+			height: auto;
+			position: relative;
+		
+	}*/
+			
+
+			
+	h1 		{color:#FFd480;
+			width: auto;
+			font-size: 3.0em;
+			text-shadow: 2px 2px 0px #666;
+
+	}
+	
+	h2 		{color: #FFFFFF;
+			width: auto;
+			text-shadow: 2px 2px 0px #666;
+	}
+	
+	h3 	       {color:#c0c0c0;
+			width: auto;
+
+	}
+	
+	footer	{background-color: #ffd480;
+			color: #000000;
+			margin-left: 15%;
+			margin-right: 15%;
+			border-radius: 10px;
+			text-align: center;
+			font-size: .8em;
+			font-style: italic
+	}
+	
+	#footerEmail{
+		    color:#111544;
+			padding-top:.5%;
+			margin-bottom: 5%;
+		
+	}
+	
+	footer a:link{
+			color:darkblue;
+			text-decoration:underline;
+	}
+	
+	footer a:visited{
+			color:#111544;
+			text-decoration:none;
+
+	}
+	
+	footer a:hover{
+			text-decoration:underline;
+
+	}
+	
+	footer a:active{
+			text-decoration:none;
+			background-color: green;
+
+	}
+	
+	
+
+	
+	
