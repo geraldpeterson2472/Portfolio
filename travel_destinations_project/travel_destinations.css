@@ -1,0 +1,130 @@
+	body 	{ 
+			background-image: linear-gradient(#cde8ff,#fffaa7);
+			margin-right: 50px;
+			margin-left: 50px;
+			font-family: pristina, "segoe print", sans-serif;
+			}
+	
+
+	#wrapper {
+			width:90%;
+			background-color: #3f8d87;
+			margin-left: auto;
+			margin-right: auto;
+			border-left: 15px;
+			border-radius: 15px;
+			border: 12px solid #5cc3e6; 
+			}
+	header 	{
+			height: 100px;
+			background-image: url("travel_destinations_logo.jpg");
+			background-repeat:no-repeat;
+			background-color:#e8e2b0;
+			color:#45dbff;
+			font-family: pristina, "segoe print",sans-serif;
+			padding-top: 1px;
+			text-shadow: 2px 2px #000000;
+			border-radius: 5px;
+			}
+			
+	nav 		{
+			height: 30px;
+			padding-left: 10px;
+			padding-top: 10px;
+			background-color: #4ecfcf;
+			font-size: 1em;
+			}
+			
+	img	{
+			display: inline-block;
+			position: absolute;
+			right: 127px;
+			box-shadow: 8px 8px 2px #000000;
+			border-radius: 5px;
+			} 
+			
+	#beach_trip	{
+			height: 300px;
+			width: 710px;
+			
+			
+			}
+	
+	#local_happenings {
+			height: 192px;
+			width: 300px;
+			margin-left: 5px;
+			
+			
+			}
+	
+		
+	h1 		{
+			font-weight: bold;
+			padding-top: 0px;
+			text-align: center;
+			font-size: 3.5em;
+			
+			}
+	
+	h2 		{
+			color: #ffa459;
+			
+			margin-left: 30px;
+			}
+	
+	h3 		{
+			color:#e8e2b0;
+			margin-right: 5px;
+			margin-left: 20px;
+			padding-left: 10px;
+			border-bottom: double;
+			font-family: pristina, "segoe print", sans-serif; 
+			font-size: 2.5em;
+			}
+	p		{
+			padding-left: 25px;
+			font-size: 1.4em;
+			}
+	
+	li 		{
+			padding-left: 40px;
+			font-size: 1.3em;
+			}
+	
+
+	
+	footer	{
+			background-color: #1f5bb1;
+			height: 50px;
+			color: #ffffff;
+			padding-left: 5px;
+			padding-top: 10px;
+			font-size: .8em;
+			font-style: italic;
+			font-family: pristina, "segoe print", sans-serif;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 5px;
+					
+			}
+			
+			
+
+
+			
+ a:link 		{
+			color: #ffffff;
+			}
+ a:visited	{
+			color: #afb11f;
+			}
+ a:hover	{
+			background-color: #d22323;
+			}
+					
+ a:active 	{
+			color: #eed399;
+			}
+	
+	
