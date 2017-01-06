@@ -1,0 +1,170 @@
+
+	body 
+		{
+		background-color: #333333;
+		background-repeat: no-repeat;
+		color: #000000;
+		font-family: "Times New Roman", serif;
+		}
+	
+	#wrapper
+		{
+		width:960px;
+		background-color: #333333;
+		color: #000000;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -28px;
+		padding-top: 0px;
+		border-top: 0px;
+		}
+	
+	#banner
+		{
+		width: 960px;
+		height: 100px;
+		padding: 0px;
+		border: 0px;
+		margin-top: 0px;
+		background-image: url(money_banner_bkg.jpg);
+		background-repeat: no-repeat;
+		}
+		
+	#h1
+		{
+		color:#ffffff;
+		text-shadow: 4px 4px 4px #000000;
+		text-align: right;
+		font-size: 1.3em;
+		margin-right: 90px;
+		}
+	
+	#h3
+		{
+		color:#000000;
+		text-shadow: 1px 1px 1px #000000;
+		font-style: italic;
+		text-align: right;
+		margin-right: 90px;
+		margin-top: -20px;
+		}
+			
+	#leftcolumn
+		{
+		padding-bottom: 0px;
+		border: 0px;
+		margin-top: 2px;
+		margin-bottom: 0px;
+		font-family: Arial, sanserif;
+		color: #000000;
+		float: left;
+		width: 150px;
+		height: 323px;
+		background-color: #cccccc;
+		}
+	
+	#classesnav	
+		{
+		position: absolute;
+		}
+		
+	#classesnav ul
+		{
+		list-style-type: none;
+		display: block;
+		}
+
+	#classesnav ul li
+		{
+		list-style-type: none;
+		padding:20px 0px 2px 0px;
+		margin-left: -25px;
+		border-left: 0px;
+		display:block;
+		font-size:1.1em;
+		}
+		
+	#classesnav ul li a
+		{
+		display: block;
+		}
+		
+	
+		
+	.clearleft
+		{
+		clear: left;
+		}
+		
+	#rightcolumn
+		{
+		font-family: Arial, sanserif;
+		margin-left: 150px;
+		margin-top: 2px;
+		height: 330px;
+		background-color: #ffffff;
+		padding-left: 5px;
+		padding-right: 10px;
+		padding-bottom: 0px;
+		overflow: auto;
+		}
+		
+	#rightcolh3
+		{
+		font-family: "Times New Roman", serif;
+		font-size: 1.7em;
+		border: 0px;
+		margin: 0px;
+		}
+		
+	#figcaption
+		{
+		font-family: Arial, sanserif;
+		text-align: center;
+		caption-side: bottom;
+		color:#006600;
+		font-style: italic;
+		font-size: .8em;
+		float: right;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #006600;
+		border-radius: 15px;
+		margin-right: 10px;
+		padding: 10px;
+		width: 145px;
+		height:120px;
+		}
+
+	#figure
+		{
+		float: right;
+		margin-right: -15px;
+		margin-top: -10px;
+		}
+		
+	.clearright
+		{
+		clear: right
+		}
+	
+	#footer
+		{
+		font-family: arial, sanserif;
+		font-size: .8em;
+		font-style: italic;
+		text-align: right;
+		background-color: #006600;
+		margin-top: -20px;
+		}
+		
+	
+
+	
+	
+
+	
+	
+
+	
+	
