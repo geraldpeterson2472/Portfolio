@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url("introheadr_base/stylesheet.css");
+/* CSS Document */
+
+body p {
+	margin-right: 0.1%;
+	margin-left: 0.1%;
+	margin-bottom: 0.1%;
+	clear: both;
+
+}
+
+
+body p a{
+	float:left;
+
+}
+
+body main h4 {
+	font-weight: bold;
+	float: left;
+
+}
+
+#container{
+	background: #e4d081;
+	background: linear-gradient(#7ADF17, #e4d081);
+    background: -moz-linear-gradient(#7ADF17, #e4d081);
+	font-family: "introheadr base", "introrustg base2line", "introscriptr h2base";
+	font-size: 125%;
+	padding: 2%;
+	
+}
+
+#header{
+	background-image: url(springGardenBanner.jpg);
+	background-color: #7ADF17;
+	max-width:100%;
+	height:auto;
+	padding:2%;
+}
+
+
+
+#choose{
+	display: inline-block;
+	clear:both;
+	max-width: 40%;
+	height: auto;
+
+
+}
+
+#header h1{
+	background-color: #7ADF17;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 1%;
+	font-family: "introheadr base", "introrustg base2line", "introscriptr h2base";
+	font-size: 300%;
+	opacity: .9;
+	border-radius: 37%;
+	border-color:#030;
+	border-style: solid;
+
+}
+
+img {
+	float:right;
+	position:relative;
+	clear: both;
+	margin: 1%;
+}
+
+#italics{
+	font-style: italic;
+	
+}
+
+
+nav {
+	background-color: #7ADF17;
+	max-width: 100%;
+	height: 40px;
+	font-family: "introheadr base", "introrustg base2line", "introscriptr h2base";
+	font-size: 125%;
+	border-color:#030;
+	border-top: solid;
+	border-bottom: solid;
+
+
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	padding: .3%;
+	padding-top: .3%;
+	transition-property: background-color;
+	transition-duration: 200ms;
+	transition-timing-function:ease-in-out;
+	transition-delay: 200ms;
+	transition-duration: 200ms;
+
+}
+
+nav a:hover{
+	background-color:#6F0;
+	border-radius: 10px;
+	padding: .3%;
+
+}
+
+main{
+	display:inline-block;
+}
+
+#prep{
+	display: block;
+	float:left;
+	float: left;
+	clear: both;
+	max-width: 40%;
+	height: auto;
+}
+
+#flowers1{
+	display:inline-block;
+	float:left;
+	max-width: 40%;
+	border-style:solid;
+	border-color:#030;
+}
+
+#flowers2{
+	display:inline-block;
+	float:left;
+	max-width: 40%;
+	margin-top: 2%;
+	border-style:solid;
+	border-color:#030;
+}
+
+#suggestionsDiv{
+	margin-top:5%;	
+}
+	
+
+
+body main img {
+	clear: both;
+	float:right;
+	position:relative;
+	display:inline-block;
+}
+
+body footer  {
+	margin-top: 4%;
+	font-style: italic;
+	font-family: "introheadr base", "introrustg base2line", "introscriptr h2base";
+	clear: both;
+	background-color: #e4d081;
+	text-align: center;
+}

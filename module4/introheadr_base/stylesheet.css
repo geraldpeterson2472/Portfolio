@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'introheadr base';
+	src: url('introheadr-base-webfont.eot');
+	src: url('introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
+		url('introheadr-base-webfont.woff') format('woff'),
+		url('introheadr-base-webfont.ttf') format('truetype'),
+		url('introheadr-base-webfont.svg') format('svg');
+}
