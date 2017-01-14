@@ -68,6 +68,16 @@
 				
 	}
 	
+	nav li a {
+	     	transition-property: background-color;
+			transition-property:: font-size;
+			transition-property:: color;
+			transition-duration: 200ms;
+			transition-dug-function:ease-in-out;
+			transition-delay: 200mration: 200ms;
+			transition-timins;
+	}
+	
 	a:link{	color:#ffffff;
 			text-decoration:none;
 	}
@@ -79,8 +89,14 @@
 	}
 	
 	a:hover{
-			text-decoration:underline;
-
+			text-decoration:blink;
+			background-color:#fff;
+			color:#069;
+			font-size: 125%;
+			border-radius: 10px;
+			padding-left: .5%;
+			padding-right: .5%;
+			padding-top: .2%;
 	}
 	
 	a:active{
@@ -126,6 +142,7 @@
 			width: 100%;
 			padding-right: 6%;
 			padding-left: 1%;
+			margin-right: .3%
 	}
 	
 	#descriptionHome h3{
@@ -175,6 +192,11 @@
 			height: auto;
 			display: inline;
 			padding-right:3%;
+	}
+	
+	#page2h3{
+			clear: both;
+			float: left;	
 	}
 	
 	#page3{ width:auto; 
