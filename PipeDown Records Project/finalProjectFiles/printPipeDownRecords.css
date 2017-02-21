@@ -1,0 +1,37 @@
+/* This CSS page is strictly formatted for printing the coupon page.  When the user clicks on the coupon, it sends them to another page where they select the print option and then they can print the coupon with nothing but the coupon on the page.  */
+
+@media{
+	nav {
+		display: none;
+	}
+	hr{
+		display: none;
+	}
+	ul{
+		display: none;
+	}
+	li{
+		display: none;
+	}
+	
+	header{
+		display: none;
+	
+	}
+	
+	footer{
+		display: none;
+	}
+	#couponImage{
+		height: 200px;
+		width: 400px;
+		display: block;
+	}
+	.coupon {
+		display: none;
+	}
+	#container{
+		border-style: none;
+	}
+
+}

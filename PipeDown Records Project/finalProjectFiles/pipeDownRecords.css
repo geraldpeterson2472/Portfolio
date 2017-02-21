@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Class rules apply to a variable that is used more than once throughout the website on different pages or the same one.  It is identified on the CSS document with a period to the left of the name.  */
+
+/*ID rules apply to a single variable that is used only once and isn't reused again. It is identified with a pound sign to the left of the variable name. */
+
+body{
+	font-family: 'Lobster', cursive;
+	background:linear-gradient(to bottom right, #ffffff, #000000); /* These fonts compliment each other and help bring a professional look  */
+}
+#container {  /*The container holds everything and gives a structured appearance */
+	margin-left: 7%; /* I used percentages to help make it fluid  */
+	margin-right: 7%;
+	background-color: #ffffff;
+	margin-top: 5%;
+	border: 2px;
+	border-radius: 15px;  /*created a rounded edge to soften the look */
+	margin-bottom: 5%;  
+	border-style: ridge;
+	border-color: #990002;
+}
+#container footer { /* I wanted to keep the text centered within the footer  */
+	text-align: center;
+	clear: both; /* By clearing the float, the footer aligns properly below the image and text above it  */
+}
+
+#container main { /*An ID variable  */
+	padding: 1%;
+	font-family: cabin, sans-serif;
+}
+#container main h3 {
+	display: inline-block;
+	clear: both;
+
+}
+
+main img  {
+	float: right;
+	display: block;
+
+}
+
+
+
+
+header {
+	background-image: url(../logo_pipedown_small.jpg); /* I went with the smaller image to give a crisp look in the header*/
+	background-repeat: no-repeat;
+	height: auto;
+	border-radius: 15px;
+	min-height: 93px;
+	max-width: 100%;
+
+}
+#container #headerInfo {
+	color: #990002;
+	text-align: center; /* Center alignment of the text gives a nice look */
+	text-shadow: 2px 2px 2px #9A9595; /* Text shadow helps give the illusion of 3d and allows the text to pop out  */
+}
+#container #headerInfo h4 {
+	font-size: 120%;
+	display: block;
+}
+
+
+
+nav{
+	font-family: 'Lobster', cursive;
+	font-size: 130%;
+	clear: both;
+	color: #990002; /* keeping with the color consistency throughout the website  */
+	display: inline;
+	
+	
+}
+body header h1 {
+	clear: both;
+	text-align: center;
+	color: #990002;
+	padding-top: 5%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {  /* This starts the next few sections in regards to the drop down menu for the artists.  I thought this added some extra professionalism to the site and also allows the pages to be tucked away neater under one heading  */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #990002;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding-top: 1%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #990002;
+	color:#FFFFFF;
+}
+
+.dropdown:hover .dropdown-content { 
+    display: block;
+}
+.artist{ /* A class variable  */
+	display: block;
+	
+}
+
+#artistLink{
+	display:block;
+	clear:both;
+		
+}
+#formArea{  /* Format for the form area on the contact page.  This allows the form to stand out from the page and shows the user where the form starts and stops with the background color changes. */
+	padding-top: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 1%;
+	background-color:#CCC;
+	color:#990002;
+	border-radius: 5px;
+}
+
+#formStart{
+	padding-top: 3%;
+	text-align:center;	
+}
+
+/* The next few sections are using CSS to align the different boxes next to the labels to allow more uniformity with them.  */
+
+#container main #formArea p #firstName{
+	padding: 0%;
+	margin-left: 35px;
+}
+
+#container main #formArea p #lastName{
+	padding: 0%;
+	margin-left: 35px;
+}
+
+#container main #formArea p #emailAddress{
+	padding: 0%;
+	margin-left: 11px;
+}
+
+#container main #formArea p #phone{
+	padding: 0%;
+	margin-left: 5px;
+}
+
+#container main #formArea p #mailingAddress{
+	padding: 0%;
+	width: 21.5%;
+}
+
+#container main #formArea p #commentsQuestions{
+	padding: 0%;
+	width: 21.5%;
+}
+
+#commentTable tr td {
+	border-style: hidden;	
+	padding-left: 5%;
+	margin-left: 5%;
+	
+}
+
+#commentTable{
+	border-radius: 5px;
+}
+
+.artistInfo{
+	display:block;
+	clear:both;
+}
+
+.artistImage{
+	float: left;
+	display: block;
+
+}
+
+.disclaimer{
+	font-family: "Times New Roman", Times, serif;
+	color: #000;
+}
+
+
+#couponImage{ /*The formatting here allowed me to display the coupon image with a dashed line so that the user knows to cut along the dashes after printing the document.  */
+	float: left;
+	display: block;
+	border-style: dashed;
+	margin-right: 5%;	
+}
+#coupon h3{
+	color:#F00;	
+}
